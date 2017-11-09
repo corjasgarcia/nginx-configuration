@@ -2,11 +2,11 @@ version: '2'
 services:
     ###SERVICE_NAME###:
      restart: always
-     image: ###VERSION###
+     image: ###TOMCAT_VERSION###
      networks:
       - mynet
 networks:
     mynet:
-     exteral:
+     external:
       name: mynetwork
 

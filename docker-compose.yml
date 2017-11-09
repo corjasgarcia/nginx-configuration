@@ -1,0 +1,12 @@
+version: '2'
+services:
+    ###SERVICE_NAME###:
+     restart: always
+     image: mytomcat:last
+     networks:
+	- mynet
+networks:
+    mynet:
+     exteral:
+      name: mynetwork
+

@@ -4,7 +4,7 @@ services:
      restart: always
      image: mytomcat:last
      networks:
-	- mynet
+	  - mynet
 networks:
     mynet:
      exteral:

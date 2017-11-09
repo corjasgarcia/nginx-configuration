@@ -2,7 +2,7 @@ version: '2'
 services:
     ###SERVICE_NAME###:
      restart: always
-     image: mytomcat:last
+     image: ###VERSION###
      networks:
       - mynet
 networks:
